@@ -1,0 +1,2013 @@
+/* Font */
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+/* Colors */
+/* Config */
+/* Pretty Lights */
+
+/*container*/
+.container {
+    z-index: 10;
+    position:absolute;
+    left:0;
+    right:0;
+    top:40%;
+    margin-left:auto;
+    margin-right:auto;
+    width: 700px ;
+}
+
+.bokeh {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: -50px;
+  left: -25px;
+}
+
+.light {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+  width: 92px;
+  height: 92px;
+  top: 5%;
+  left: 3%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 30s light6 linear infinite;
+          animation: 30s light6 linear infinite;
+}
+
+.light:nth-child(1) {
+  width: 92px;
+  height: 92px;
+  top: 5%;
+  left: 3%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 30s light6 linear infinite;
+          animation: 30s light6 linear infinite;
+}
+
+.light:nth-child(2) {
+  width: 93px;
+  height: 93px;
+  top: 63%;
+  left: 9%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 11s light3 linear infinite;
+          animation: 11s light3 linear infinite;
+}
+
+.light:nth-child(3) {
+  width: 99px;
+  height: 99px;
+  top: 64%;
+  left: 55%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 11s light2 linear infinite;
+          animation: 11s light2 linear infinite;
+}
+
+.light:nth-child(4) {
+  width: 80px;
+  height: 80px;
+  top: 9%;
+  left: 12%;
+  background: #6B0D05;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 27s light3 linear infinite;
+          animation: 27s light3 linear infinite;
+}
+
+.light:nth-child(5) {
+  width: 87px;
+  height: 87px;
+  top: 72%;
+  left: 15%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 21s light3 linear infinite;
+          animation: 21s light3 linear infinite;
+}
+
+.light:nth-child(6) {
+  width: 78px;
+  height: 78px;
+  top: 79%;
+  left: 48%;
+  background: #FEC641;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 12s light3 linear infinite;
+          animation: 12s light3 linear infinite;
+}
+
+.light:nth-child(7) {
+  width: 100px;
+  height: 100px;
+  top: 100%;
+  left: 100%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 26s light5 linear infinite;
+          animation: 26s light5 linear infinite;
+}
+
+.light:nth-child(8) {
+  width: 76px;
+  height: 76px;
+  top: 33%;
+  left: 23%;
+  background: #63C13B;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 14s light3 linear infinite;
+          animation: 14s light3 linear infinite;
+}
+
+.light:nth-child(9) {
+  width: 85px;
+  height: 85px;
+  top: 30%;
+  left: 32%;
+  background: #2F8A27;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 18s light3 linear infinite;
+          animation: 18s light3 linear infinite;
+}
+
+.light:nth-child(10) {
+  width: 98px;
+  height: 98px;
+  top: 6%;
+  left: 39%;
+  background: #7D0006;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 20s light6 linear infinite;
+          animation: 20s light6 linear infinite;
+}
+
+.light:nth-child(11) {
+  width: 93px;
+  height: 93px;
+  top: 99%;
+  left: 47%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 24s light4 linear infinite;
+          animation: 24s light4 linear infinite;
+}
+
+.light:nth-child(12) {
+  width: 82px;
+  height: 82px;
+  top: 55%;
+  left: 34%;
+  background: #63C13B;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 18s light6 linear infinite;
+          animation: 18s light6 linear infinite;
+}
+
+.light:nth-child(13) {
+  width: 83px;
+  height: 83px;
+  top: 58%;
+  left: 53%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 15s light6 linear infinite;
+          animation: 15s light6 linear infinite;
+}
+
+.light:nth-child(14) {
+  width: 99px;
+  height: 99px;
+  top: 74%;
+  left: 44%;
+  background: #6B0D05;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 11s light4 linear infinite;
+          animation: 11s light4 linear infinite;
+}
+
+.light:nth-child(15) {
+  width: 97px;
+  height: 97px;
+  top: 65%;
+  left: 74%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 35s light4 linear infinite;
+          animation: 35s light4 linear infinite;
+}
+
+.light:nth-child(16) {
+  width: 84px;
+  height: 84px;
+  top: 5%;
+  left: 73%;
+  background: #D00010;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 22s light4 linear infinite;
+          animation: 22s light4 linear infinite;
+}
+
+.light:nth-child(17) {
+  width: 82px;
+  height: 82px;
+  top: 18%;
+  left: 38%;
+  background: #7D0006;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 13s light3 linear infinite;
+          animation: 13s light3 linear infinite;
+}
+
+.light:nth-child(18) {
+  width: 93px;
+  height: 93px;
+  top: 65%;
+  left: 82%;
+  background: #2F8A27;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 28s light4 linear infinite;
+          animation: 28s light4 linear infinite;
+}
+
+.light:nth-child(19) {
+  width: 92px;
+  height: 92px;
+  top: 52%;
+  left: 10%;
+  background: #D00010;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 29s light5 linear infinite;
+          animation: 29s light5 linear infinite;
+}
+
+.light:nth-child(20) {
+  width: 91px;
+  height: 91px;
+  top: 65%;
+  left: 69%;
+  background: #63C13B;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 12s light5 linear infinite;
+          animation: 12s light5 linear infinite;
+}
+
+.light:nth-child(21) {
+  width: 77px;
+  height: 77px;
+  top: 46%;
+  left: 27%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 11s light4 linear infinite;
+          animation: 11s light4 linear infinite;
+}
+
+.light:nth-child(22) {
+  width: 82px;
+  height: 82px;
+  top: 22%;
+  left: 7%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 20s light6 linear infinite;
+          animation: 20s light6 linear infinite;
+}
+
+.light:nth-child(23) {
+  width: 89px;
+  height: 89px;
+  top: 39%;
+  left: 88%;
+  background: #2F8A27;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 34s light5 linear infinite;
+          animation: 34s light5 linear infinite;
+}
+
+.light:nth-child(24) {
+  width: 77px;
+  height: 77px;
+  top: 37%;
+  left: 2%;
+  background: #63C13B;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 19s light2 linear infinite;
+          animation: 19s light2 linear infinite;
+}
+
+.light:nth-child(25) {
+  width: 77px;
+  height: 77px;
+  top: 72%;
+  left: 87%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 15s light3 linear infinite;
+          animation: 15s light3 linear infinite;
+}
+
+.light:nth-child(26) {
+  width: 96px;
+  height: 96px;
+  top: 58%;
+  left: 36%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 23s light4 linear infinite;
+          animation: 23s light4 linear infinite;
+}
+
+.light:nth-child(27) {
+  width: 90px;
+  height: 90px;
+  top: 94%;
+  left: 69%;
+  background: #FEE34A;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 26s light3 linear infinite;
+          animation: 26s light3 linear infinite;
+}
+
+.light:nth-child(28) {
+  width: 78px;
+  height: 78px;
+  top: 51%;
+  left: 59%;
+  background: #7D0006;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 13s light2 linear infinite;
+          animation: 13s light2 linear infinite;
+}
+
+.light:nth-child(29) {
+  width: 99px;
+  height: 99px;
+  top: 76%;
+  left: 31%;
+  background: #FE0016;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 30s light5 linear infinite;
+          animation: 30s light5 linear infinite;
+}
+
+.light:nth-child(30) {
+  width: 96px;
+  height: 96px;
+  top: 76%;
+  left: 7%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 21s light5 linear infinite;
+          animation: 21s light5 linear infinite;
+}
+
+.light:nth-child(31) {
+  width: 91px;
+  height: 91px;
+  top: 91%;
+  left: 11%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 22s light3 linear infinite;
+          animation: 22s light3 linear infinite;
+}
+
+.light:nth-child(32) {
+  width: 90px;
+  height: 90px;
+  top: 10%;
+  left: 19%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 30s light4 linear infinite;
+          animation: 30s light4 linear infinite;
+}
+
+.light:nth-child(33) {
+  width: 97px;
+  height: 97px;
+  top: 68%;
+  left: 20%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 23s light6 linear infinite;
+          animation: 23s light6 linear infinite;
+}
+
+.light:nth-child(34) {
+  width: 82px;
+  height: 82px;
+  top: 58%;
+  left: 61%;
+  background: #5C6C94;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 19s light4 linear infinite;
+          animation: 19s light4 linear infinite;
+}
+
+.light:nth-child(35) {
+  width: 84px;
+  height: 84px;
+  top: 80%;
+  left: 90%;
+  background: #DB1913;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 11s light5 linear infinite;
+          animation: 11s light5 linear infinite;
+}
+
+.light:nth-child(36) {
+  width: 95px;
+  height: 95px;
+  top: 99%;
+  left: 87%;
+  background: #FEE34A;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 11s light5 linear infinite;
+          animation: 11s light5 linear infinite;
+}
+
+.light:nth-child(37) {
+  width: 100px;
+  height: 100px;
+  top: 73%;
+  left: 60%;
+  background: #FEE34A;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 27s light4 linear infinite;
+          animation: 27s light4 linear infinite;
+}
+
+.light:nth-child(38) {
+  width: 83px;
+  height: 83px;
+  top: 42%;
+  left: 50%;
+  background: #5C6C94;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 14s light4 linear infinite;
+          animation: 14s light4 linear infinite;
+}
+
+.light:nth-child(39) {
+  width: 79px;
+  height: 79px;
+  top: 69%;
+  left: 26%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 11s light2 linear infinite;
+          animation: 11s light2 linear infinite;
+}
+
+.light:nth-child(40) {
+  width: 92px;
+  height: 92px;
+  top: 41%;
+  left: 5%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 35s light5 linear infinite;
+          animation: 35s light5 linear infinite;
+}
+
+.light:nth-child(41) {
+  width: 88px;
+  height: 88px;
+  top: 21%;
+  left: 57%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 11s light5 linear infinite;
+          animation: 11s light5 linear infinite;
+}
+
+.light:nth-child(42) {
+  width: 93px;
+  height: 93px;
+  top: 72%;
+  left: 83%;
+  background: #63C13B;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 16s light4 linear infinite;
+          animation: 16s light4 linear infinite;
+}
+
+.light:nth-child(43) {
+  width: 80px;
+  height: 80px;
+  top: 41%;
+  left: 26%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 21s light4 linear infinite;
+          animation: 21s light4 linear infinite;
+}
+
+.light:nth-child(44) {
+  width: 88px;
+  height: 88px;
+  top: 96%;
+  left: 35%;
+  background: #FEE34A;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 34s light6 linear infinite;
+          animation: 34s light6 linear infinite;
+}
+
+.light:nth-child(45) {
+  width: 78px;
+  height: 78px;
+  top: 37%;
+  left: 17%;
+  background: #DB1913;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 24s light6 linear infinite;
+          animation: 24s light6 linear infinite;
+}
+
+.light:nth-child(46) {
+  width: 93px;
+  height: 93px;
+  top: 47%;
+  left: 21%;
+  background: #FEE34A;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 11s light4 linear infinite;
+          animation: 11s light4 linear infinite;
+}
+
+.light:nth-child(47) {
+  width: 100px;
+  height: 100px;
+  top: 9%;
+  left: 99%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 13s light6 linear infinite;
+          animation: 13s light6 linear infinite;
+}
+
+.light:nth-child(48) {
+  width: 88px;
+  height: 88px;
+  top: 51%;
+  left: 69%;
+  background: #2F8A27;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 27s light5 linear infinite;
+          animation: 27s light5 linear infinite;
+}
+
+.light:nth-child(49) {
+  width: 90px;
+  height: 90px;
+  top: 86%;
+  left: 62%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 23s light6 linear infinite;
+          animation: 23s light6 linear infinite;
+}
+
+.light:nth-child(50) {
+  width: 91px;
+  height: 91px;
+  top: 30%;
+  left: 23%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 18s light2 linear infinite;
+          animation: 18s light2 linear infinite;
+}
+
+.light:nth-child(51) {
+  width: 93px;
+  height: 93px;
+  top: 71%;
+  left: 61%;
+  background: #DB1913;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 22s light4 linear infinite;
+          animation: 22s light4 linear infinite;
+}
+
+.light:nth-child(52) {
+  width: 98px;
+  height: 98px;
+  top: 77%;
+  left: 78%;
+  background: #FE0016;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 28s light3 linear infinite;
+          animation: 28s light3 linear infinite;
+}
+
+.light:nth-child(53) {
+  width: 95px;
+  height: 95px;
+  top: 96%;
+  left: 65%;
+  background: #63C13B;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 24s light6 linear infinite;
+          animation: 24s light6 linear infinite;
+}
+
+.light:nth-child(54) {
+  width: 88px;
+  height: 88px;
+  top: 33%;
+  left: 39%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 22s light5 linear infinite;
+          animation: 22s light5 linear infinite;
+}
+
+.light:nth-child(55) {
+  width: 99px;
+  height: 99px;
+  top: 53%;
+  left: 28%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 27s light4 linear infinite;
+          animation: 27s light4 linear infinite;
+}
+
+.light:nth-child(56) {
+  width: 87px;
+  height: 87px;
+  top: 71%;
+  left: 15%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 14s light3 linear infinite;
+          animation: 14s light3 linear infinite;
+}
+
+.light:nth-child(57) {
+  width: 100px;
+  height: 100px;
+  top: 30%;
+  left: 6%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 23s light2 linear infinite;
+          animation: 23s light2 linear infinite;
+}
+
+.light:nth-child(58) {
+  width: 94px;
+  height: 94px;
+  top: 48%;
+  left: 99%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 34s light2 linear infinite;
+          animation: 34s light2 linear infinite;
+}
+
+.light:nth-child(59) {
+  width: 81px;
+  height: 81px;
+  top: 57%;
+  left: 99%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 18s light3 linear infinite;
+          animation: 18s light3 linear infinite;
+}
+
+.light:nth-child(60) {
+  width: 79px;
+  height: 79px;
+  top: 24%;
+  left: 90%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 19s light4 linear infinite;
+          animation: 19s light4 linear infinite;
+}
+
+.light:nth-child(61) {
+  width: 98px;
+  height: 98px;
+  top: 81%;
+  left: 82%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 29s light5 linear infinite;
+          animation: 29s light5 linear infinite;
+}
+
+.light:nth-child(62) {
+  width: 89px;
+  height: 89px;
+  top: 68%;
+  left: 52%;
+  background: #5C6C94;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 12s light3 linear infinite;
+          animation: 12s light3 linear infinite;
+}
+
+.light:nth-child(63) {
+  width: 89px;
+  height: 89px;
+  top: 56%;
+  left: 70%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 25s light4 linear infinite;
+          animation: 25s light4 linear infinite;
+}
+
+.light:nth-child(64) {
+  width: 78px;
+  height: 78px;
+  top: 86%;
+  left: 92%;
+  background: #FEC641;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 28s light4 linear infinite;
+          animation: 28s light4 linear infinite;
+}
+
+.light:nth-child(65) {
+  width: 100px;
+  height: 100px;
+  top: 57%;
+  left: 60%;
+  background: #7D0006;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 26s light2 linear infinite;
+          animation: 26s light2 linear infinite;
+}
+
+.light:nth-child(66) {
+  width: 99px;
+  height: 99px;
+  top: 97%;
+  left: 24%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 20s light4 linear infinite;
+          animation: 20s light4 linear infinite;
+}
+
+.light:nth-child(67) {
+  width: 94px;
+  height: 94px;
+  top: 86%;
+  left: 47%;
+  background: #5C6C94;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 26s light4 linear infinite;
+          animation: 26s light4 linear infinite;
+}
+
+.light:nth-child(68) {
+  width: 82px;
+  height: 82px;
+  top: 64%;
+  left: 17%;
+  background: #DB1913;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 16s light3 linear infinite;
+          animation: 16s light3 linear infinite;
+}
+
+.light:nth-child(69) {
+  width: 90px;
+  height: 90px;
+  top: 4%;
+  left: 58%;
+  background: #FE0016;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 26s light4 linear infinite;
+          animation: 26s light4 linear infinite;
+}
+
+.light:nth-child(70) {
+  width: 96px;
+  height: 96px;
+  top: 71%;
+  left: 1%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 22s light4 linear infinite;
+          animation: 22s light4 linear infinite;
+}
+
+.light:nth-child(71) {
+  width: 89px;
+  height: 89px;
+  top: 30%;
+  left: 8%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 11s light5 linear infinite;
+          animation: 11s light5 linear infinite;
+}
+
+.light:nth-child(72) {
+  width: 93px;
+  height: 93px;
+  top: 46%;
+  left: 11%;
+  background: #7D0006;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 30s light4 linear infinite;
+          animation: 30s light4 linear infinite;
+}
+
+.light:nth-child(73) {
+  width: 85px;
+  height: 85px;
+  top: 5%;
+  left: 4%;
+  background: #FE0016;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 13s light2 linear infinite;
+          animation: 13s light2 linear infinite;
+}
+
+.light:nth-child(74) {
+  width: 98px;
+  height: 98px;
+  top: 49%;
+  left: 50%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 16s light5 linear infinite;
+          animation: 16s light5 linear infinite;
+}
+
+.light:nth-child(75) {
+  width: 78px;
+  height: 78px;
+  top: 68%;
+  left: 54%;
+  background: #6B0D05;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 31s light6 linear infinite;
+          animation: 31s light6 linear infinite;
+}
+
+.light:nth-child(76) {
+  width: 95px;
+  height: 95px;
+  top: 42%;
+  left: 53%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 15s light2 linear infinite;
+          animation: 15s light2 linear infinite;
+}
+
+.light:nth-child(77) {
+  width: 89px;
+  height: 89px;
+  top: 85%;
+  left: 56%;
+  background: #DB1913;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 27s light3 linear infinite;
+          animation: 27s light3 linear infinite;
+}
+
+.light:nth-child(78) {
+  width: 78px;
+  height: 78px;
+  top: 51%;
+  left: 10%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 12s light4 linear infinite;
+          animation: 12s light4 linear infinite;
+}
+
+.light:nth-child(79) {
+  width: 77px;
+  height: 77px;
+  top: 57%;
+  left: 68%;
+  background: #7D0006;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 30s light5 linear infinite;
+          animation: 30s light5 linear infinite;
+}
+
+.light:nth-child(80) {
+  width: 78px;
+  height: 78px;
+  top: 17%;
+  left: 82%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 27s light3 linear infinite;
+          animation: 27s light3 linear infinite;
+}
+
+.light:nth-child(81) {
+  width: 90px;
+  height: 90px;
+  top: 69%;
+  left: 82%;
+  background: #FEE34A;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 12s light2 linear infinite;
+          animation: 12s light2 linear infinite;
+}
+
+.light:nth-child(82) {
+  width: 87px;
+  height: 87px;
+  top: 42%;
+  left: 5%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 25s light5 linear infinite;
+          animation: 25s light5 linear infinite;
+}
+
+.light:nth-child(83) {
+  width: 99px;
+  height: 99px;
+  top: 50%;
+  left: 29%;
+  background: #FEE34A;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 27s light5 linear infinite;
+          animation: 27s light5 linear infinite;
+}
+
+.light:nth-child(84) {
+  width: 92px;
+  height: 92px;
+  top: 70%;
+  left: 84%;
+  background: #63C13B;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 27s light3 linear infinite;
+          animation: 27s light3 linear infinite;
+}
+
+.light:nth-child(85) {
+  width: 86px;
+  height: 86px;
+  top: 67%;
+  left: 60%;
+  background: #5C6C94;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 12s light3 linear infinite;
+          animation: 12s light3 linear infinite;
+}
+
+.light:nth-child(86) {
+  width: 80px;
+  height: 80px;
+  top: 30%;
+  left: 48%;
+  background: #6B0D05;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 12s light6 linear infinite;
+          animation: 12s light6 linear infinite;
+}
+
+.light:nth-child(87) {
+  width: 81px;
+  height: 81px;
+  top: 73%;
+  left: 47%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 23s light5 linear infinite;
+          animation: 23s light5 linear infinite;
+}
+
+.light:nth-child(88) {
+  width: 88px;
+  height: 88px;
+  top: 39%;
+  left: 56%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 23s light6 linear infinite;
+          animation: 23s light6 linear infinite;
+}
+
+.light:nth-child(89) {
+  width: 97px;
+  height: 97px;
+  top: 63%;
+  left: 25%;
+  background: #7D0006;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 29s light6 linear infinite;
+          animation: 29s light6 linear infinite;
+}
+
+.light:nth-child(90) {
+  width: 88px;
+  height: 88px;
+  top: 11%;
+  left: 73%;
+  background: #5C6C94;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 35s light3 linear infinite;
+          animation: 35s light3 linear infinite;
+}
+
+.light:nth-child(91) {
+  width: 96px;
+  height: 96px;
+  top: 80%;
+  left: 60%;
+  background: #6B0D05;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 18s light2 linear infinite;
+          animation: 18s light2 linear infinite;
+}
+
+.light:nth-child(92) {
+  width: 95px;
+  height: 95px;
+  top: 67%;
+  left: 97%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 33s light2 linear infinite;
+          animation: 33s light2 linear infinite;
+}
+
+.light:nth-child(93) {
+  width: 95px;
+  height: 95px;
+  top: 45%;
+  left: 79%;
+  background: #FEE34A;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 34s light2 linear infinite;
+          animation: 34s light2 linear infinite;
+}
+
+.light:nth-child(94) {
+  width: 77px;
+  height: 77px;
+  top: 36%;
+  left: 4%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 25s light4 linear infinite;
+          animation: 25s light4 linear infinite;
+}
+
+.light:nth-child(95) {
+  width: 100px;
+  height: 100px;
+  top: 57%;
+  left: 6%;
+  background: #DB1913;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 20s light2 linear infinite;
+          animation: 20s light2 linear infinite;
+}
+
+.light:nth-child(96) {
+  width: 97px;
+  height: 97px;
+  top: 100%;
+  left: 68%;
+  background: #FEE34A;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 32s light3 linear infinite;
+          animation: 32s light3 linear infinite;
+}
+
+.light:nth-child(97) {
+  width: 89px;
+  height: 89px;
+  top: 8%;
+  left: 81%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 30s light5 linear infinite;
+          animation: 30s light5 linear infinite;
+}
+
+.light:nth-child(98) {
+  width: 84px;
+  height: 84px;
+  top: 95%;
+  left: 87%;
+  background: #7D0006;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 32s light2 linear infinite;
+          animation: 32s light2 linear infinite;
+}
+
+.light:nth-child(99) {
+  width: 82px;
+  height: 82px;
+  top: 75%;
+  left: 56%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 14s light2 linear infinite;
+          animation: 14s light2 linear infinite;
+}
+
+.light:nth-child(100) {
+  width: 91px;
+  height: 91px;
+  top: 60%;
+  left: 57%;
+  background: #DB1913;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 20s light5 linear infinite;
+          animation: 20s light5 linear infinite;
+}
+
+.light:nth-child(101) {
+  width: 90px;
+  height: 90px;
+  top: 25%;
+  left: 84%;
+  background: #2F8A27;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 30s light5 linear infinite;
+          animation: 30s light5 linear infinite;
+}
+
+.light:nth-child(102) {
+  width: 85px;
+  height: 85px;
+  top: 21%;
+  left: 54%;
+  background: #7D0006;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 19s light5 linear infinite;
+          animation: 19s light5 linear infinite;
+}
+
+.light:nth-child(103) {
+  width: 83px;
+  height: 83px;
+  top: 96%;
+  left: 51%;
+  background: #FEC641;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 25s light5 linear infinite;
+          animation: 25s light5 linear infinite;
+}
+
+.light:nth-child(104) {
+  width: 79px;
+  height: 79px;
+  top: 15%;
+  left: 4%;
+  background: #FEE34A;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 19s light5 linear infinite;
+          animation: 19s light5 linear infinite;
+}
+
+.light:nth-child(105) {
+  width: 87px;
+  height: 87px;
+  top: 54%;
+  left: 82%;
+  background: #FEC641;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 30s light5 linear infinite;
+          animation: 30s light5 linear infinite;
+}
+
+.light:nth-child(106) {
+  width: 89px;
+  height: 89px;
+  top: 32%;
+  left: 97%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 31s light4 linear infinite;
+          animation: 31s light4 linear infinite;
+}
+
+.light:nth-child(107) {
+  width: 86px;
+  height: 86px;
+  top: 9%;
+  left: 100%;
+  background: #6B0D05;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 22s light3 linear infinite;
+          animation: 22s light3 linear infinite;
+}
+
+.light:nth-child(108) {
+  width: 80px;
+  height: 80px;
+  top: 51%;
+  left: 97%;
+  background: #FEC641;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 30s light6 linear infinite;
+          animation: 30s light6 linear infinite;
+}
+
+.light:nth-child(109) {
+  width: 77px;
+  height: 77px;
+  top: 13%;
+  left: 9%;
+  background: #6B0D05;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 25s light6 linear infinite;
+          animation: 25s light6 linear infinite;
+}
+
+.light:nth-child(110) {
+  width: 82px;
+  height: 82px;
+  top: 96%;
+  left: 73%;
+  background: #6B0D05;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 11s light4 linear infinite;
+          animation: 11s light4 linear infinite;
+}
+
+.light:nth-child(111) {
+  width: 83px;
+  height: 83px;
+  top: 35%;
+  left: 9%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 18s light4 linear infinite;
+          animation: 18s light4 linear infinite;
+}
+
+.light:nth-child(112) {
+  width: 78px;
+  height: 78px;
+  top: 47%;
+  left: 80%;
+  background: #FEE34A;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 35s light2 linear infinite;
+          animation: 35s light2 linear infinite;
+}
+
+.light:nth-child(113) {
+  width: 93px;
+  height: 93px;
+  top: 26%;
+  left: 83%;
+  background: #FEC641;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 35s light3 linear infinite;
+          animation: 35s light3 linear infinite;
+}
+
+.light:nth-child(114) {
+  width: 80px;
+  height: 80px;
+  top: 14%;
+  left: 41%;
+  background: #7D0006;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 18s light6 linear infinite;
+          animation: 18s light6 linear infinite;
+}
+
+.light:nth-child(115) {
+  width: 85px;
+  height: 85px;
+  top: 45%;
+  left: 96%;
+  background: #63C13B;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 22s light4 linear infinite;
+          animation: 22s light4 linear infinite;
+}
+
+.light:nth-child(116) {
+  width: 94px;
+  height: 94px;
+  top: 77%;
+  left: 26%;
+  background: #7D0006;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 23s light2 linear infinite;
+          animation: 23s light2 linear infinite;
+}
+
+.light:nth-child(117) {
+  width: 84px;
+  height: 84px;
+  top: 42%;
+  left: 4%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 17s light2 linear infinite;
+          animation: 17s light2 linear infinite;
+}
+
+.light:nth-child(118) {
+  width: 98px;
+  height: 98px;
+  top: 65%;
+  left: 62%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 17s light5 linear infinite;
+          animation: 17s light5 linear infinite;
+}
+
+.light:nth-child(119) {
+  width: 77px;
+  height: 77px;
+  top: 39%;
+  left: 73%;
+  background: #63C13B;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 14s light6 linear infinite;
+          animation: 14s light6 linear infinite;
+}
+
+.light:nth-child(120) {
+  width: 100px;
+  height: 100px;
+  top: 24%;
+  left: 75%;
+  background: #FE0016;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 12s light3 linear infinite;
+          animation: 12s light3 linear infinite;
+}
+
+.light:nth-child(121) {
+  width: 93px;
+  height: 93px;
+  top: 66%;
+  left: 18%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 24s light6 linear infinite;
+          animation: 24s light6 linear infinite;
+}
+
+.light:nth-child(122) {
+  width: 89px;
+  height: 89px;
+  top: 56%;
+  left: 66%;
+  background: #63C13B;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 25s light6 linear infinite;
+          animation: 25s light6 linear infinite;
+}
+
+.light:nth-child(123) {
+  width: 100px;
+  height: 100px;
+  top: 75%;
+  left: 73%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 11s light5 linear infinite;
+          animation: 11s light5 linear infinite;
+}
+
+.light:nth-child(124) {
+  width: 81px;
+  height: 81px;
+  top: 82%;
+  left: 20%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 15s light4 linear infinite;
+          animation: 15s light4 linear infinite;
+}
+
+.light:nth-child(125) {
+  width: 87px;
+  height: 87px;
+  top: 39%;
+  left: 44%;
+  background: #FEC641;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 13s light6 linear infinite;
+          animation: 13s light6 linear infinite;
+}
+
+.light:nth-child(126) {
+  width: 88px;
+  height: 88px;
+  top: 74%;
+  left: 85%;
+  background: #6B0D05;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 12s light6 linear infinite;
+          animation: 12s light6 linear infinite;
+}
+
+.light:nth-child(127) {
+  width: 77px;
+  height: 77px;
+  top: 2%;
+  left: 9%;
+  background: #7D0006;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 20s light5 linear infinite;
+          animation: 20s light5 linear infinite;
+}
+
+.light:nth-child(128) {
+  width: 78px;
+  height: 78px;
+  top: 77%;
+  left: 44%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 14s light2 linear infinite;
+          animation: 14s light2 linear infinite;
+}
+
+.light:nth-child(129) {
+  width: 83px;
+  height: 83px;
+  top: 90%;
+  left: 48%;
+  background: #FEE34A;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 31s light6 linear infinite;
+          animation: 31s light6 linear infinite;
+}
+
+.light:nth-child(130) {
+  width: 99px;
+  height: 99px;
+  top: 66%;
+  left: 58%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 16s light5 linear infinite;
+          animation: 16s light5 linear infinite;
+}
+
+.light:nth-child(131) {
+  width: 89px;
+  height: 89px;
+  top: 34%;
+  left: 85%;
+  background: #6B0D05;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 15s light5 linear infinite;
+          animation: 15s light5 linear infinite;
+}
+
+.light:nth-child(132) {
+  width: 98px;
+  height: 98px;
+  top: 49%;
+  left: 59%;
+  background: #7D0006;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 15s light4 linear infinite;
+          animation: 15s light4 linear infinite;
+}
+
+.light:nth-child(133) {
+  width: 100px;
+  height: 100px;
+  top: 99%;
+  left: 56%;
+  background: #FEE34A;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 24s light2 linear infinite;
+          animation: 24s light2 linear infinite;
+}
+
+.light:nth-child(134) {
+  width: 99px;
+  height: 99px;
+  top: 64%;
+  left: 67%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 11s light5 linear infinite;
+          animation: 11s light5 linear infinite;
+}
+
+.light:nth-child(135) {
+  width: 100px;
+  height: 100px;
+  top: 49%;
+  left: 54%;
+  background: #DB1913;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 23s light6 linear infinite;
+          animation: 23s light6 linear infinite;
+}
+
+.light:nth-child(136) {
+  width: 76px;
+  height: 76px;
+  top: 9%;
+  left: 75%;
+  background: #FE0016;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 11s light2 linear infinite;
+          animation: 11s light2 linear infinite;
+}
+
+.light:nth-child(137) {
+  width: 84px;
+  height: 84px;
+  top: 73%;
+  left: 97%;
+  background: #FEE34A;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 18s light6 linear infinite;
+          animation: 18s light6 linear infinite;
+}
+
+.light:nth-child(138) {
+  width: 82px;
+  height: 82px;
+  top: 73%;
+  left: 63%;
+  background: #2F8A27;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 30s light6 linear infinite;
+          animation: 30s light6 linear infinite;
+}
+
+.light:nth-child(139) {
+  width: 94px;
+  height: 94px;
+  top: 60%;
+  left: 82%;
+  background: #D00010;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 22s light2 linear infinite;
+          animation: 22s light2 linear infinite;
+}
+
+.light:nth-child(140) {
+  width: 80px;
+  height: 80px;
+  top: 58%;
+  left: 38%;
+  background: #FE0016;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 22s light3 linear infinite;
+          animation: 22s light3 linear infinite;
+}
+
+.light:nth-child(141) {
+  width: 84px;
+  height: 84px;
+  top: 79%;
+  left: 52%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 31s light2 linear infinite;
+          animation: 31s light2 linear infinite;
+}
+
+.light:nth-child(142) {
+  width: 97px;
+  height: 97px;
+  top: 38%;
+  left: 31%;
+  background: #D00010;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 21s light6 linear infinite;
+          animation: 21s light6 linear infinite;
+}
+
+.light:nth-child(143) {
+  width: 97px;
+  height: 97px;
+  top: 80%;
+  left: 11%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 28s light4 linear infinite;
+          animation: 28s light4 linear infinite;
+}
+
+.light:nth-child(144) {
+  width: 92px;
+  height: 92px;
+  top: 42%;
+  left: 16%;
+  background: #63C13B;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 18s light4 linear infinite;
+          animation: 18s light4 linear infinite;
+}
+
+.light:nth-child(145) {
+  width: 98px;
+  height: 98px;
+  top: 28%;
+  left: 83%;
+  background: #DB1913;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 24s light5 linear infinite;
+          animation: 24s light5 linear infinite;
+}
+
+.light:nth-child(146) {
+  width: 88px;
+  height: 88px;
+  top: 50%;
+  left: 99%;
+  background: #5C6C94;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 19s light5 linear infinite;
+          animation: 19s light5 linear infinite;
+}
+
+.light:nth-child(147) {
+  width: 84px;
+  height: 84px;
+  top: 98%;
+  left: 28%;
+  background: #2F8A27;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 11s light5 linear infinite;
+          animation: 11s light5 linear infinite;
+}
+
+.light:nth-child(148) {
+  width: 100px;
+  height: 100px;
+  top: 51%;
+  left: 64%;
+  background: #7D0006;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 29s light4 linear infinite;
+          animation: 29s light4 linear infinite;
+}
+
+.light:nth-child(149) {
+  width: 94px;
+  height: 94px;
+  top: 43%;
+  left: 81%;
+  background: #6B0D05;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-animation: 23s light6 linear infinite;
+          animation: 23s light6 linear infinite;
+}
+
+.light:nth-child(150) {
+  width: 83px;
+  height: 83px;
+  top: 62%;
+  left: 17%;
+  background: #FE0016;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-animation: 21s light5 linear infinite;
+          animation: 21s light5 linear infinite;
+}
+
+@-webkit-keyframes light1 {
+  25% {
+    opacity: 0.57;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes light1 {
+  25% {
+    opacity: 0.57;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes light2 {
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.44;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes light2 {
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.44;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes light3 {
+  25% {
+    opacity: 0.52;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.26;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes light3 {
+  25% {
+    opacity: 0.52;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.26;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes light4 {
+  25% {
+    opacity: 0.63;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.47;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes light4 {
+  25% {
+    opacity: 0.63;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.47;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes light5 {
+  25% {
+    opacity: 0.73;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes light5 {
+  25% {
+    opacity: 0.73;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Other Stuff */
+input {
+	color: black;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  background-image: -webkit-linear-gradient(right bottom, #0A0707 0%, #110C0D 50%, #0C090A 100%);
+  background-image: linear-gradient(right bottom, #0A0707 0%, #110C0D 50%, #0C090A 100%);
+}
+
+h1 {
+
+  text-align: center;
+  /*text-transform: uppercase;*/
+  color: #FFFFFF;
+  font-size: 250%;
+  position: absolute;
+  top: 25%;
+  z-index: 10;
+  opacity: 0.9;
+  left: 0%;
+  right: 0%;
+}

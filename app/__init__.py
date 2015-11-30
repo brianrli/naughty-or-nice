@@ -23,7 +23,7 @@ db = SQLAlchemy(app)
 
 # create database
 from models import Player
-# db.drop_all()
+db.drop_all()
 # db.create_all()
 # db.session.commit()
 

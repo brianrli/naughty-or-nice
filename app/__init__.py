@@ -8,8 +8,9 @@ from flask.ext.cas import CAS
 from flask.ext.cas import logout
 
 app = Flask(__name__)
+
 app.config.from_object('config')
-cas = CAS(app)
+cas = CAS(app)  
 
 db = SQLAlchemy(app)
 

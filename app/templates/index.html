@@ -1,27 +1,21 @@
-<!-- naughty or nice page -->
-
-<html>
-	<head>
-		<title>naughty or nice</title>
-	</head>
-	<body>
-		<h1>Dear {{ name }},</h1>
-		{% if naughty == True %}
-			<h1>You have been NAUGHTY this year.</h1>
-			{% if message == None %}
-				<h1> Enjoy the coal. </h1>
-			{% else %}
-				<h1> {{ message }} </h1>
-			{% endif %}	
-		{% elif naughty == False %}
-			<h1>You have been NICE this year.</h1>
-			{% if message == None %}
-				<h1> Keep up the wonderful work! </h1>
-			{% else %}
-				<h1> {{ message }} </h1>
-			{% endif %}	
-		{% endif %}
-		<h1>Best,</h1>
-		<h1>Santa Claus</h1>
-	</body>
-</html>
+{% extends "christmas.html" %}
+{% block header %}
+	<h1>Dear {{ name }}, <br>
+	{% if naughty == True %}
+		You have been NAUGHTY this year. <br>
+		{% if message == None %}
+			Enjoy the coal.
+		{% else %}
+			{{ message }} 
+		{% endif %}	
+	{% elif naughty == False %}
+		You have been very NICE this year. <br>
+		{% if message == None %}
+			Keep up the wonderful work! <br>
+		{% else %}
+			{{ message }} <br>
+		{% endif %}	
+	{% endif %}
+	Best,<br>
+	Santa Claus</h1>
+{% endblock %}

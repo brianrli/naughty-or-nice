@@ -6,8 +6,12 @@ from flask.ext.script import Manager
 from flask.ext.migrate import Migrate, MigrateCommand
 from flask.ext.cas import CAS
 from flask.ext.cas import logout
+import logging
+import sys
 
 app = Flask(__name__)
+app.logger.addHandler(logging.StreamHandler(sys.stdout))
+app.logger.setLevel(logging.ERROR)
 
 app.config.from_object('config')
 cas = CAS(app)  

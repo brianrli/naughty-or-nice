@@ -4,12 +4,15 @@ import os
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.script import Manager
 from flask.ext.migrate import Migrate, MigrateCommand
-from flask.ext.cas import CAS
-from flask.ext.cas import logout
+from flask_cas import CAS
+from flask_cas import logout
+
 import logging
 import sys
 
 app = Flask(__name__)
+
+# debugging
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
 

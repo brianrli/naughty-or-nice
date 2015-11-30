@@ -5,7 +5,6 @@ coverage==4.0.3
 decorator==4.0.4
 Flask==0.10.1
 Flask-Babel==0.9
-Flask-CAS==1.0.0
 Flask-Login==0.3.2
 Flask-Mail==0.9.1
 Flask-Migrate==1.6.0

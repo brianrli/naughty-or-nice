@@ -1,13 +1,11 @@
 from app import app, cas
 from app.models import *
 from flask import render_template, redirect
-from flask.ext.cas import login_required
 from flask_cas import CAS
 from forms import UserForm, EditUserForm
 
 @app.route('/')
 @app.route('/index')
-@login_required
 def index():
     if cas.username is None:
         return redirect('/login')
